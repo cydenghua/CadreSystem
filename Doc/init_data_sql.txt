@@ -1,0 +1,244 @@
+
+delete from organizational_structure;
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('1', '某县', '0');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('2', '四大班子', '1');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('3', '县委', '2');
+insert into organizational_structure(sys_id, name, parent_id)
+values('4', '县人大', '2');
+insert into organizational_structure(sys_id, name, parent_id)
+values('5', '县政府', '2');
+insert into organizational_structure(sys_id, name, parent_id)
+values('6', '县政协', '2');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('7', '县委各部委、群团', '1');
+insert into organizational_structure(sys_id, name, parent_id)
+values('8', '县委办', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('9', '机要局', '8');
+insert into organizational_structure(sys_id, name, parent_id)
+values('10', '保密局', '8');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('11', '人大机关', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('12', '人大办公室', '11');
+insert into organizational_structure(sys_id, name, parent_id)
+values('13', '内务司法工作委员会', '11');
+insert into organizational_structure(sys_id, name, parent_id)
+values('14', '财经工作委员会', '11');
+insert into organizational_structure(sys_id, name, parent_id)
+values('15', '教科文卫委员会', '11');
+insert into organizational_structure(sys_id, name, parent_id)
+values('16', '信访办公室', '11');
+insert into organizational_structure(sys_id, name, parent_id)
+values('17', '代表联络委员会', '11');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('18', '政协机关', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('19', '政协办公室', '18');
+insert into organizational_structure(sys_id, name, parent_id)
+values('20', '政协第一专门委员会办公室', '18');
+insert into organizational_structure(sys_id, name, parent_id)
+values('21', '政协第二专门委员会办公室', '18');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('22', '纪委', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('23', '组织部', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('24', '宣传部', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('25', '统战部', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('26', '政法委', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('27', '综治办', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('28', '党工委', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('29', '县委党校', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('30', '党史办', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('31', '县总工会', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('32', '团县委', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('33', '县妇联', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('34', '工商联', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('35', '县残联', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('36', '县科协', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('37', '县委目督办', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('38', '防邪办', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('39', '政研室', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('40', '老干局', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('41', '静文办', '7');
+insert into organizational_structure(sys_id, name, parent_id)
+values('42', '台侨办', '7');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('43', '法检两院', '1');
+insert into organizational_structure(sys_id, name, parent_id)
+values('44', '县检察院', '43');
+insert into organizational_structure(sys_id, name, parent_id)
+values('45', '反贪局', '44');
+insert into organizational_structure(sys_id, name, parent_id)
+values('46', '县法院', '43');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('47', '县政府各部门', '1');
+insert into organizational_structure(sys_id, name, parent_id)
+values('48', '县政府办公室', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('49', '政务服务中心', '48');
+insert into organizational_structure(sys_id, name, parent_id)
+values('50', '机关事务管理局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('51', '县政府采购中心', '50');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('52', '监察局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('53', '计经局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('54', '发展和改革局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('55', '建设局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('56', '规划局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('57', '工业集中发展区', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('58', '物流园区管委会', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('59', '城市管理局', '47');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('60', '科技局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('61', '知识产权局', '60');
+insert into organizational_structure(sys_id, name, parent_id)
+values('62', '计生局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('63', '商务局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('64', '招商局', '63');
+insert into organizational_structure(sys_id, name, parent_id)
+values('65', '人事局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('66', '编办', '47');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('67', '劳动与社会保障局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('68', '社保局', '67');
+insert into organizational_structure(sys_id, name, parent_id)
+values('69', '就业局', '67');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('70', '财政局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('71', '民政局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('72', '司法局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('73', '审计局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('74', '统计局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('75','教育局', '47');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('76', '文体局', '47');
+insert into organizational_structure(sys_id, name, parent_id) 
+values('77', '新闻出版社', '76');
+insert into organizational_structure(sys_id, name, parent_id)
+values('78', '文体广电新闻出版局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('79', '卫生局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('80', '环保局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('81', '农村发展局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('82', '林业局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('83', '水务局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('84', '交通局', '47');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('85', '安办（安监局）', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('86', '安监局', '85');
+insert into organizational_structure(sys_id, name, parent_id)
+values('87', '人防办', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('88', '地志办', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('89', '房管局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('90', '档案局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('91', '档案馆', '90');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('92', '贸粮局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('93', '粮食局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('94', '供销社', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('95', '政府目督办', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('96', '信访办', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('97', '体改办', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('98', '经济局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('99', '物价局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('100', '旅游发展局', '47');
+insert into organizational_structure(sys_id, name, parent_id)
+values('101', '电视台', '47');
+
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('102', '市管部门', '1');
+insert into organizational_structure(sys_id, name, parent_id)
+values('103', '国税局', '102');
+insert into organizational_structure(sys_id, name, parent_id)
+values('104', '地税局', '102');
+insert into organizational_structure(sys_id, name, parent_id)
+values('105', '国土资源局', '102');
+insert into organizational_structure(sys_id, name, parent_id)
+values('106', '质监分局', '102');
+insert into organizational_structure(sys_id, name, parent_id)
+values('107', '药监局', '102');
+insert into organizational_structure(sys_id, name, parent_id)
+values('108', '公安分局', '102');
+insert into organizational_structure(sys_id, name, parent_id)
+values('109', '工商局', '102');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('110', '乡镇（街道）', '1');
+
+insert into organizational_structure(sys_id, name, parent_id)
+values('111', '县武装部', '1');

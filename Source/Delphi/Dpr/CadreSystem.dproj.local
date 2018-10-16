@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.781,E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\Unit1.dfm=E:\MY_WORK\PersonnelSystem\Source\Delphi\CadreInfoForm\uCadreInfo.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.352,E:\MY_WORK\PersonnelSystem\Source\Delphi\DataImport\uDataImport.dfm=E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.279,E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\Unit1.dfm=E:\MY_WORK\PersonnelSystem\Source\Delphi\SystemSetting\uGridSetting.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.992,E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\Unit1.dfm=E:\MY_WORK\PersonnelSystem\Source\Delphi\Public\uSqlExec.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.512,C:\Users\denghua\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\PersonnelSystem.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.647,C:\Users\denghua\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\MY_WORK\PersonnelSystem\Source\Delphi\MainForm\uMainForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.842,E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\PersonnelSystem.dproj=E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\CadreSystem.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.874,E:\MY_WORK\PersonnelSystem\Source\Delphi\OrgStructureForm\uOrgStructureForm.dfm=E:\MY_WORK\PersonnelSystem\Source\Delphi\Dpr\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

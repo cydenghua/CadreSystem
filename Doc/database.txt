@@ -1,0 +1,15 @@
+
+
+Create  TABLE [sys_users] (
+[user_name] varchar(50) PRIMARY KEY NOT NULL
+,[pass_word] varchar(50)
+,[user_sysid] varchar(6) NOT NULL
+,[role_sn] varchar(6)
+,[create_date] varchar(50)
+,[last_time] varchar(50)
+,[login_times] int
+,[deleted] char(1));
+
+insert into sys_users (user_name, pass_word, user_sysid, role_sn)
+values('admin2', '070C14E52BFD', '1', '1');
+
